@@ -11,8 +11,16 @@
         SpriteRenderer sr;
         Animator anim;
 
-       
+        bool inMovement;   
+
         public float speed;
+
+        void Awake()
+        {
+            rb = GetComponent<Rigidbody2D>();
+            sr = GetComponent<SpriteRenderer>();
+            anim = GetComponent<Animator>();
+        }
 
         void Start()
         {
@@ -22,21 +30,37 @@
 
         void Update()
         {
-            Vector3 movementPlayer;
-            if (typePlayer == 0) movementPlayer = new Vector3(Input.GetAxis("HorizontalOffensive"), Input.GetAxis("VerticalOffensive"), 0f);
-            else movementPlayer = new Vector3(Input.GetAxis("HorizontalRepairman"), Input.GetAxis("VerticalRepairman"), 0f);
 
-            //use of getaxisraw? - smooth movement
-            //animation in blend tree
-            //offensive's attack it's a circular atack
+        Vector3 movementPlayer;
 
-            /*if we manage to finish the 3 phases of the tutorial:
-              create arcade mode
-              score for the arcade (saved in the game)/
+        if (typePlayer == 0)
+        {
+            movementPlayer = new Vector3(Input.GetAxis("HorizontalOffensive"), Input.GetAxis("VerticalOffensive"), 0f);
+            anim.SetFloat("Horizontal", Input.GetAxis("HorizontalOffensive"));
+            anim.SetFloat("Vertical", Input.GetAxis("VerticalOffensive"));
+            if (Input.GetAxis("HorizontalOffensive") == 0 && Input.GetAxis("VerticalOffensive") == 0) inMovement = false;
+                else inMovement = true;
+        }
+        else {
+            movementPlayer = new Vector3(Input.GetAxis("HorizontalRepairman"), Input.GetAxis("VerticalRepairman"), 0f);
+            //anim.SetFloat("Horizontal", Input.GetAxis("HorizontalRepairman"));
+            //anim.SetFloat("Vertical", Input.GetAxis("VerticalRepairman"));
+            if (Input.GetAxis("HorizontalRepairman") == 0 && Input.GetAxis("VerticalRepairman") == 0) inMovement = false;
+                else inMovement = true; 
+        }
 
-            /if you complete the arcade:
-            level editor*/
+        anim.SetBool("inMovement", inMovement);
 
-            transform.position = transform.position + movementPlayer * speed * Time.deltaTime;
+        //use of getaxisraw? - smooth movement V
+        //animation in blend tree V
+        //offensive's attack it's a circular atack X -> Cone Attack V
+
+        /*if we manage to finish the 3 phases of the tutorial:
+          create arcade mode
+          score for the arcade (saved in the game)/
+
+        /if you complete the arcade:
+        level editor*/
+        transform.position = transform.position + movementPlayer * speed * Time.deltaTime;
         }
     }

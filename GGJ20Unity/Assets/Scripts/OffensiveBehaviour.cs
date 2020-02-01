@@ -4,18 +4,16 @@ using UnityEngine;
 
 public class OffensiveBehaviour : MonoBehaviour
 {
-    [SerializeField]Vector3[] attackPosition; /*0 - Up ; 1 - Right ; 2 - Down ; 3 - Left*/
+    //[SerializeField]Vector3[] attackPosition; /*0 - Up ; 1 - Right ; 2 - Down ; 3 - Left*/
 
-    bool left, right, up, down;
-    [SerializeField]bool[] dir;
+    public bool left, right, up, down;
 
 
-    [SerializeField]Transform attackObject;
+    [SerializeField]GameObject[] attackObjects;
 
     private void Update()
     {
         Attack();
-        left = dir[3]; right = dir[1]; up = dir[0]; down = dir[2];
     }
 
     void Attack()
@@ -25,17 +23,73 @@ public class OffensiveBehaviour : MonoBehaviour
 
     void SetPositionAttack()
     {
-        if (left) attackObject.position = attackPosition[3];
-            else if (right) attackObject.position = attackPosition[1];
-                else if (up) attackObject.position = attackPosition[0];
-                    else if (down) attackObject.position = attackPosition[2];
+            if (Input.GetAxis("HorizontalOffensive") > 0 && Input.GetAxis("VerticalOffensive") == 0)
+            {
+                left = false;
+                right = true;
+                up = false;
+                down = false;
+            }
 
-        SetRotationAttack();   
-    }
+            else if (Input.GetAxis("HorizontalOffensive") < 0 && Input.GetAxis("VerticalOffensive") == 0)
+            {
+                left = true;
+                right = false;
+                up = false;
+                down = false;
+            }
 
-    void SetRotationAttack()
-    {
-        if (left || right) attackObject.rotation = Quaternion.Euler(0, 0, 90);
-            else if(up || down) attackObject.rotation = Quaternion.Euler(0, 0, 0);
+            else if (Input.GetAxis("HorizontalOffensive") == 0 && Input.GetAxis("VerticalOffensive") > 0)
+            {
+                left = false;
+                right = false;
+                up = true;
+                down = false;
+            }
+
+            else if (Input.GetAxis("HorizontalOffensive") == 0 && Input.GetAxis("VerticalOffensive") < 0)
+            {
+                left = false;
+                right = false;
+                up = false;
+                down = true;
+            }
+
+            else if (Input.GetAxis("HorizontalOffensive") == 0 && Input.GetAxis("VerticalOffensive") == 0)
+            {
+                left = false;
+                right = false;
+                up = false;
+                down = true;
+            }
+
+            if (left)
+            {
+                attackObjects[0].SetActive(false);
+                attackObjects[1].SetActive(false);
+                attackObjects[2].SetActive(false);
+                attackObjects[3].SetActive(true);
+            }
+            else if (right)
+            {
+                attackObjects[0].SetActive(false);
+                attackObjects[1].SetActive(true);
+                attackObjects[2].SetActive(false);
+                attackObjects[3].SetActive(false);
+            }
+            else if (up)
+            {
+                attackObjects[0].SetActive(true);
+                attackObjects[1].SetActive(false);
+                attackObjects[2].SetActive(false);
+                attackObjects[3].SetActive(false);
+            }
+            else if (down)
+            {
+                attackObjects[0].SetActive(false);
+                attackObjects[1].SetActive(false);
+                attackObjects[2].SetActive(true);
+                attackObjects[3].SetActive(false);
+            }
+        }
     }
-}

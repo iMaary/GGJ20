@@ -399,11 +399,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3615936912055174333, guid: 12b4522aa3de61247bdcfa8b6333deb7,
-        type: 3}
-      propertyPath: typePlayer
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8360656294206682979, guid: 12b4522aa3de61247bdcfa8b6333deb7,
         type: 3}
       propertyPath: arrowsSr.Array.size
@@ -477,6 +472,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   telaPuzzle: {fileID: 0}
   arrowsSr: []
+--- !u!95 &1537811803
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1537811795}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 51b09ef9feeaa3642b39440b8fb37dbe, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1600006476
 GameObject:
   m_ObjectHideFlags: 0
