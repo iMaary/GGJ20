@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3615936912055174331}
   - component: {fileID: 3615936912055174332}
   - component: {fileID: 3615936912055174333}
-  - component: {fileID: 8360656294206682979}
+  - component: {fileID: 1666439359873972372}
   - component: {fileID: 3615936912055174330}
   m_Layer: 0
   m_Name: RepairMan
@@ -96,7 +96,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   typePlayer: 0
   speed: 7
---- !u!114 &8360656294206682979
+--- !u!114 &1666439359873972372
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -105,11 +105,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 3615936912055174334}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4767eda4f8709004680f4420bd736717, type: 3}
+  m_Script: {fileID: 11500000, guid: 883a500148b012a4e8a77934d4c6c1a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  typePlayer: 0
-  speed: 10
+  telaPuzzle: {fileID: 9212473225724027377, guid: befe7bbaf09af5847949dea76f1c3cb5,
+    type: 3}
+  arrowsSr:
+  - {fileID: 2342801704803098588, guid: 5628e3a954a5b3d46b2dae1cad18b192, type: 3}
+  - {fileID: 7596164630838331547, guid: 0b6a278b97e06d744a2d2522885ac810, type: 3}
+  - {fileID: 3267532069025884685, guid: fbaf515ae150e124c9fb160ed8c231ea, type: 3}
+  - {fileID: 5468622790842650508, guid: 48a6be1007108c54d8f74950ed5f3d44, type: 3}
 --- !u!50 &3615936912055174330
 Rigidbody2D:
   serializedVersion: 4
