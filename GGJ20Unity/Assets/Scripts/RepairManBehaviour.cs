@@ -12,7 +12,7 @@ public class RepairManBehaviour : MonoBehaviour
     private GameObject fixing;
 
     [SerializeField]
-    private GameObject telaPuzzle;
+    public GameObject telaPuzzle;
     private bool onPuzzle = false;
     private int seq;
     public GameObject[] arrowsSr;
@@ -52,6 +52,7 @@ public class RepairManBehaviour : MonoBehaviour
             seq++;
             if (seq == 4)
             {
+                onPuzzle = false;
                 StartCoroutine("Repairing");
             }
         }
@@ -69,8 +70,7 @@ public class RepairManBehaviour : MonoBehaviour
     {
         yield return new WaitForSeconds(0.4f);
         Destroy(oPuzzle.gameObject);
-        this.gameObject.GetComponent<PlayerMovement>().speed = 7;
-        onPuzzle = false;
+        this.gameObject.GetComponent<PlayerMovement>().speed = 7;        
         seq = 0;
         //corsertar();
         fixing.GetComponent<SpriteRenderer>().material.color = new Color(1f, 0f, 0f, 1f);

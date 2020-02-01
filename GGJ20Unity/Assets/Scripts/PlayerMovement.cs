@@ -32,24 +32,24 @@
         {
 
         Vector3 movementPlayer;
-
+        OffensiveBehaviour offensiveScript = GetComponent<OffensiveBehaviour>();
         if (typePlayer == 0)
         {
             movementPlayer = new Vector3(Input.GetAxis("HorizontalOffensive"), Input.GetAxis("VerticalOffensive"), 0f);
-            anim.SetFloat("Horizontal", Input.GetAxis("HorizontalOffensive"));
-            anim.SetFloat("Vertical", Input.GetAxis("VerticalOffensive"));
             if (Input.GetAxis("HorizontalOffensive") == 0 && Input.GetAxis("VerticalOffensive") == 0) inMovement = false;
                 else inMovement = true;
+
+            anim.SetBool("up", offensiveScript.upOff);
+            anim.SetBool("right", offensiveScript.rightOff);
+            anim.SetBool("down", offensiveScript.downOff);
+            anim.SetBool("left", offensiveScript.leftOff);
+            anim.SetBool("attack", offensiveScript.isAttacking);
         }
         else {
             movementPlayer = new Vector3(Input.GetAxis("HorizontalRepairman"), Input.GetAxis("VerticalRepairman"), 0f);
-            //anim.SetFloat("Horizontal", Input.GetAxis("HorizontalRepairman"));
-            //anim.SetFloat("Vertical", Input.GetAxis("VerticalRepairman"));
             if (Input.GetAxis("HorizontalRepairman") == 0 && Input.GetAxis("VerticalRepairman") == 0) inMovement = false;
                 else inMovement = true; 
         }
-
-        anim.SetBool("inMovement", inMovement);
 
         //use of getaxisraw? - smooth movement V
         //animation in blend tree V
@@ -61,6 +61,8 @@
 
         /if you complete the arcade:
         level editor*/
-        transform.position = transform.position + movementPlayer * speed * Time.deltaTime;
+
+        if(typePlayer == 0 && offensiveScript.isAttacking) { }
+        else transform.position = transform.position + movementPlayer * speed * Time.deltaTime;
         }
     }

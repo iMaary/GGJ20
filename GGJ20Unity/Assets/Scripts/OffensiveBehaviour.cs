@@ -3,11 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class OffensiveBehaviour : MonoBehaviour
-{
-    //[SerializeField]Vector3[] attackPosition; /*0 - Up ; 1 - Right ; 2 - Down ; 3 - Left*/
-
-    public bool left, right, up, down;
-
+{ 
+    public bool leftOff, rightOff, upOff, downOff, isAttacking;
+    [SerializeField] float timeAttack;
 
     [SerializeField]GameObject[] attackObjects;
 
@@ -19,77 +17,84 @@ public class OffensiveBehaviour : MonoBehaviour
     void Attack()
     {
         SetPositionAttack();
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            isAttacking = true;
+            StartCoroutine(returnVariable(timeAttack));
+        }
+    }
+
+    IEnumerator returnVariable(float timeAttack)
+    {
+        yield return new WaitForSeconds(timeAttack);
+        isAttacking = false;
     }
 
     void SetPositionAttack()
     {
-            if (Input.GetAxis("HorizontalOffensive") > 0 && Input.GetAxis("VerticalOffensive") == 0)
+            //set diretions
+            if (Input.GetKeyDown(KeyCode.W))
             {
-                left = false;
-                right = true;
-                up = false;
-                down = false;
+                leftOff = false;
+                rightOff = false;
+                upOff = true;
+                downOff = false;
             }
 
-            else if (Input.GetAxis("HorizontalOffensive") < 0 && Input.GetAxis("VerticalOffensive") == 0)
+            else if (Input.GetKeyDown(KeyCode.S))
             {
-                left = true;
-                right = false;
-                up = false;
-                down = false;
+                leftOff = false;
+                rightOff = false;
+                upOff = false;
+                downOff = true;
+            }
+            else if (Input.GetKeyDown(KeyCode.D))
+            {
+                leftOff = false;
+                rightOff = true;
+                upOff = false;
+                downOff = false;
             }
 
-            else if (Input.GetAxis("HorizontalOffensive") == 0 && Input.GetAxis("VerticalOffensive") > 0)
+            else if (Input.GetKeyDown(KeyCode.A))
             {
-                left = false;
-                right = false;
-                up = true;
-                down = false;
+                leftOff = true;
+                rightOff = false;
+                upOff = false;
+                downOff = false;
             }
 
-            else if (Input.GetAxis("HorizontalOffensive") == 0 && Input.GetAxis("VerticalOffensive") < 0)
+            //activate gameobject area's attack
+            if (!isAttacking)
             {
-                left = false;
-                right = false;
-                up = false;
-                down = true;
-            }
-
-            else if (Input.GetAxis("HorizontalOffensive") == 0 && Input.GetAxis("VerticalOffensive") == 0)
-            {
-                left = false;
-                right = false;
-                up = false;
-                down = true;
-            }
-
-            if (left)
-            {
-                attackObjects[0].SetActive(false);
-                attackObjects[1].SetActive(false);
-                attackObjects[2].SetActive(false);
-                attackObjects[3].SetActive(true);
-            }
-            else if (right)
-            {
-                attackObjects[0].SetActive(false);
-                attackObjects[1].SetActive(true);
-                attackObjects[2].SetActive(false);
-                attackObjects[3].SetActive(false);
-            }
-            else if (up)
-            {
-                attackObjects[0].SetActive(true);
-                attackObjects[1].SetActive(false);
-                attackObjects[2].SetActive(false);
-                attackObjects[3].SetActive(false);
-            }
-            else if (down)
-            {
-                attackObjects[0].SetActive(false);
-                attackObjects[1].SetActive(false);
-                attackObjects[2].SetActive(true);
-                attackObjects[3].SetActive(false);
-            }
+                if (leftOff)
+                {
+                    attackObjects[0].SetActive(false);
+                    attackObjects[1].SetActive(false);
+                    attackObjects[2].SetActive(false);
+                    attackObjects[3].SetActive(true);
+                }
+                if (rightOff)
+                {
+                    attackObjects[0].SetActive(false);
+                    attackObjects[1].SetActive(true);
+                    attackObjects[2].SetActive(false);
+                    attackObjects[3].SetActive(false);
+                }
+                if (upOff)
+                {
+                    attackObjects[0].SetActive(true);
+                    attackObjects[1].SetActive(false);
+                    attackObjects[2].SetActive(false);
+                    attackObjects[3].SetActive(false);
+                }
+                if (downOff)
+                {
+                    attackObjects[0].SetActive(false);
+                    attackObjects[1].SetActive(false);
+                    attackObjects[2].SetActive(true);
+                    attackObjects[3].SetActive(false);
+                }
+            }  
         }
     }
