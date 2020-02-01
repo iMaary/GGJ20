@@ -62,7 +62,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\RepairManBehaviour.cs" />
+    <Compile Include="Assets\Scripts\RepairManBehaviour.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/Aluno/GGJ20/GGJ20Unity/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
