@@ -94,7 +94,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   typePlayer: 0
-  speed: 7
+  speed: 10
 --- !u!50 &3615936912055174330
 Rigidbody2D:
   serializedVersion: 4

@@ -2,7 +2,7 @@
     using System.Collections.Generic;
     using UnityEngine;
 
-    public class RepairManBehaviour : MonoBehaviour
+    public class PlayerMovement : MonoBehaviour
     {
         enum player { Offensive, Repairman }
         [SerializeField] player typePlayer;
