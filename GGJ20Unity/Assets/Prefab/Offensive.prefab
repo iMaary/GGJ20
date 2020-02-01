@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 3615936912055174331}
   - component: {fileID: 3615936912055174332}
   - component: {fileID: 3615936912055174333}
+  - component: {fileID: 8564399232314895184}
   - component: {fileID: 3615936912055174330}
   m_Layer: 0
-  m_Name: RepairMan
+  m_Name: Offensive
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -95,6 +96,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   typePlayer: 0
   speed: 10
+--- !u!114 &8564399232314895184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3615936912055174334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1c773a1c58f3eb4b968c133d87d6c93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!50 &3615936912055174330
 Rigidbody2D:
   serializedVersion: 4
