@@ -73,7 +73,11 @@ public class RepairManBehaviour : MonoBehaviour
         this.gameObject.GetComponent<PlayerMovement>().speed = 7;        
         seq = 0;
         //corsertar();
-        fixing.GetComponent<SpriteRenderer>().material.color = new Color(1f, 0f, 0f, 1f);
+        fixing.GetComponent<SpriteRenderer>().color = new Color(0f, 0f, 0f, 1f);
+        fixing.gameObject.tag = "Chip";
+        fixing.GetComponent<ChipsBehaviours>().breaked = false;
+        GameObject.FindWithTag("VirusStatic").GetComponent<VirusStaticBehaviours>().ReListar();
+        fixing = null;
         for (int i = 0; i < 4; i++)
         {
             Destroy(instantArrows[i].gameObject);
