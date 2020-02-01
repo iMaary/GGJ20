@@ -11,8 +11,8 @@
         SpriteRenderer sr;
         Animator anim;
 
-        [SerializeField]
-        float speed;
+       
+        public float speed;
 
         void Start()
         {

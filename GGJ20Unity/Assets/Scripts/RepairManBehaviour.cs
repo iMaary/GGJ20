@@ -4,39 +4,66 @@ using UnityEngine;
 
 public class RepairManBehaviour : MonoBehaviour
 {
-    enum player { Offensive, Repairman }
-    [SerializeField] player typePlayer;
-
-    Rigidbody2D rb;
-    SpriteRenderer sr;
-    Animator anim;
+    private string[] setas = new string[4] { "up", "right", "down", "left" };    
+    private int[] setasPuzzle = new int[4];
+    private GameObject[] instantArrows = new GameObject[4];
+    private string seta;
+    private GameObject oPuzzle;
 
     [SerializeField]
-    float speed = 10;
+    private GameObject telaPuzzle;
+    private bool onPuzzle = false;
+    private int seq;
+    public GameObject[] arrowsSr;
 
     void Start()
     {
-        if (typePlayer == 0) speed *= 1.5f;
-        //else speed = 10f;
+         
     }
 
     void Update()
     {
-        Vector3 movementPlayer;
-        if (typePlayer == 0) movementPlayer = new Vector3(Input.GetAxis("HorizontalOffensive"), Input.GetAxis("VerticalOffensive"), 0f);
-        else movementPlayer = new Vector3(Input.GetAxis("HorizontalRepairman"), Input.GetAxis("VerticalRepairman"), 0f);
+        if (onPuzzle)
+            Puzzle();
+    }
 
-        //use of getaxisraw? - smooth movement
-        //animation in blend tree
-        //offensive's attack it's a circular atack
-
-        /*if we manage to finish the 3 phases of the tutorial:
-          create arcade mode
-          score for the arcade (saved in the game)/
-
-        /if you complete the arcade:
-        level editor*/
-
-        transform.position = transform.position + movementPlayer * speed * Time.deltaTime;
+    private void OnCollisionEnter2D(Collision2D col)
+    {
+        if(col.gameObject.tag == "Corrompido")
+        {
+            oPuzzle = Instantiate(telaPuzzle, transform.position, Quaternion.identity);
+            this.gameObject.GetComponent<PlayerMovement>().speed = 0;
+            for(int i = 0; i < 4; i++)
+            {
+                setasPuzzle[i] = Random.Range(0,4);
+                instantArrows[i] = Instantiate(arrowsSr[setasPuzzle[i]], transform.position - new Vector3(2 - i, 0), Quaternion.identity);
+                print(setas[setasPuzzle[i]]);
+            }
+            onPuzzle = true;
+        }
+    }
+    void Puzzle()
+    {
+        if (Input.GetKeyDown(setas[setasPuzzle[seq]]))
+        {
+            //instantArrows[seq].GetComponent<Color>().a = 0.5f;
+            seq++;
+            if(seq == 4)
+            {
+                Destroy(oPuzzle.gameObject);
+                this.gameObject.GetComponent<PlayerMovement>().speed = 7;
+                onPuzzle = false;
+                seq = 0;
+                for(int i = 0; i < 4; i++)
+                {
+                    Destroy(instantArrows[i].gameObject);
+                }
+            }
+        }
+        else if (Input.anyKeyDown)
+        {
+            print(1);
+            seq = 0;
+        }
     }
 }
