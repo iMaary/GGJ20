@@ -12,6 +12,7 @@ public class VirusStaticBehaviours : MonoBehaviour
     private Transform target;
     private GameObject corrompendo;
     private bool isLoose = false, animChange;
+    private string atkp;
 
     private void Start()
     {
@@ -25,6 +26,7 @@ public class VirusStaticBehaviours : MonoBehaviour
     {
         transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
         amt.SetBool("left", ((target.transform.position.x > transform.position.x || target.transform.position.x < transform.position.x) && chips.Count != 0) ? true : false);
+        //if()
 
         //amt.SetBool("behind", ((target.transform.position.y > transform.position.y ) && amt.GetBool("left") == false && chips.Count != 0) ? true : false);
         //animChange = (Mathf.Abs(target.transform.position.x) - Mathf.Abs(transform.position.x) > Mathf.Abs(target.transform.position.y) - Mathf.Abs(transform.position.y)) ? true : false;
@@ -41,7 +43,17 @@ public class VirusStaticBehaviours : MonoBehaviour
         if (col.gameObject.tag == "Chip" && col.gameObject == chips[numChip].gameObject && col.gameObject.GetComponent<ChipsBehaviours>().breaked == false)
         {
             corrompendo = col.gameObject;
-            Invoke("Corromper", 1f);  
+            if(transform.position.x - col.transform.position.x >= 1f || transform.position.x - col.transform.position.x <= -1f)
+            {
+                atkp = "AtaqueLeft";
+                amt.SetBool("AtaqueLeft", true);
+            }
+            else
+            {
+                atkp = (transform.position.y > col.gameObject.transform.position.y) ? "AtaqueIdle" : "AtaqueBhnd";
+                amt.SetBool(atkp, true);                
+            }            
+            Invoke("Corromper", 1.5f);  
         }
     }
     void Corromper()
@@ -49,6 +61,7 @@ public class VirusStaticBehaviours : MonoBehaviour
         corrompendo.gameObject.GetComponent<ChipsBehaviours>().breaked = true;
         corrompendo.GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 0.8f);
         corrompendo.tag = "Corrompido";
+        amt.SetBool(atkp, false);
         ReListar();
     }
     public void ReListar()
