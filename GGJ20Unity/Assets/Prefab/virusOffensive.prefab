@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5316875982392918939}
   - component: {fileID: 3922088491231869899}
   - component: {fileID: 7096411241131022691}
-  - component: {fileID: 2407605769328162037}
+  - component: {fileID: 4678171294513664084}
   - component: {fileID: 5844218221160473027}
   m_Layer: 0
   m_Name: virusOffensive
@@ -94,8 +94,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b22954268da852c4b89c82a90b1dd344, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!61 &2407605769328162037
-BoxCollider2D:
+  target: {fileID: 0}
+  speed: 2
+--- !u!58 &4678171294513664084
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -103,23 +105,13 @@ BoxCollider2D:
   m_GameObject: {fileID: 5961112457236910058}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 289f8bfac2f24c64c9bbeca5970c0e62, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
+  m_Radius: 0.8
 --- !u!50 &5844218221160473027
 Rigidbody2D:
   serializedVersion: 4
@@ -140,4 +132,4 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4

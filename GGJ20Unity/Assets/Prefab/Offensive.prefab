@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 44293362131593346}
   - component: {fileID: 4929722348275664744}
   - component: {fileID: 8522929450280255377}
+  - component: {fileID: 122647957}
   m_Layer: 0
   m_Name: Offensive
   m_TagString: Untagged
@@ -30,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 4929722348275664748}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 6.4874897, y: 6.4874897, z: 6.4874897}
+  m_LocalScale: {x: 6.48749, y: 6.48749, z: 6.48749}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -98,7 +99,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   typePlayer: 0
   lifeCurrent: 0
-  speed: 7
+  speed: 10
   lifeBase: 3
 --- !u!114 &44293362131593346
 MonoBehaviour:
@@ -165,3 +166,29 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!61 &122647957
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4929722348275664748}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.034534328, y: 0.14085233}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.875, y: 1.875}
+    newSize: {x: 0.2, y: 0.2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.52486575, y: 0.95945954}
+  m_EdgeRadius: 0
