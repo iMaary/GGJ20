@@ -1,7 +1,43 @@
 fileFormatVersion: 2
 guid: 80a967c0fc28ce34bacb12b8dba762d1
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 1134164402627094643
+    second: V1 esquerdinha_0
+  - first:
+      213: -4098403745469411107
+    second: V1 esquerdinha_2
+  - first:
+      213: -6461540483374121305
+    second: V1 esquerdinha_3
+  - first:
+      213: -5758371612407281587
+    second: V1 esquerdinha_4
+  - first:
+      213: -6982769158114414370
+    second: V1 esquerdinha_6
+  - first:
+      213: 2536240383245435375
+    second: V1 esquerdinha_7
+  - first:
+      213: 1576311140935773221
+    second: V1 esquerdinha_8
+  - first:
+      213: 1706112566179896754
+    second: V1 esquerdinha_9
+  - first:
+      213: 8166014739225701711
+    second: V1 esquerdinha_10
+  - first:
+      213: -7341628034101140558
+    second: V1 esquerdinha_11
+  - first:
+      213: -954949589107587191
+    second: V1 esquerdinha_12
+  - first:
+      213: 7721763121855649498
+    second: V1 esquerdinha_13
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -31,7 +67,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -40,12 +76,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -63,7 +99,40 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -71,7 +140,259 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: V1 esquerdinha_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 20
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa8bd5fe4e7525428bdaa6ea05e63a6
+      internalID: 1134164402627094643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V1 esquerdinha_2
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 13
+        width: 66
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64993ae58028e1e469e9c725aa09c7fe
+      internalID: -4098403745469411107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V1 esquerdinha_3
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 12
+        width: 66
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba3a3699244aaa4dbdf32bcdd6c1bf9
+      internalID: -6461540483374121305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V1 esquerdinha_4
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 16
+        width: 66
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4e07ebb62b32c04fa048a28a0e4c5af
+      internalID: -5758371612407281587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V1 esquerdinha_6
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 12
+        width: 66
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2040723e09a96dc47b1b6e22e2c76808
+      internalID: -6982769158114414370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V1 esquerdinha_7
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 14
+        width: 66
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d42e313be716ade4eab8db1be4cfe2ec
+      internalID: 2536240383245435375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V1 esquerdinha_8
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 8
+        width: 66
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a618cc2f7dd58c499ef77d8c5c494c7
+      internalID: 1576311140935773221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V1 esquerdinha_9
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 72
+        width: 14
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53b4bbb45b55b6f488ed60ea38c95f0c
+      internalID: 1706112566179896754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V1 esquerdinha_10
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 10
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39594f36b390aae4f8d19dfadfc46c5a
+      internalID: 8166014739225701711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V1 esquerdinha_11
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 10
+        width: 66
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 814d11e5ab0dfff43be3d60bd31fa86b
+      internalID: -7341628034101140558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V1 esquerdinha_12
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 12
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcf763c3dfea1fd4aab26c2ced58ea2a
+      internalID: -954949589107587191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V1 esquerdinha_13
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 12
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ea2931939f0b4f428e115ee8c1bcdda
+      internalID: 7721763121855649498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

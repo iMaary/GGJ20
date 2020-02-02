@@ -4,15 +4,19 @@ using UnityEngine;
 
 public class VirusStaticBehaviours : MonoBehaviour
 {
+    private Animator amt;
+    private SpriteRenderer sr;
     private static List<GameObject> chips;
     [SerializeField] private float speed;
     private int numChip, numChipBefore;
     private Transform target;
     private GameObject corrompendo;
-    private bool isLoose = false;
+    private bool isLoose = false, animChange;
 
     private void Start()
     {
+        sr = GetComponent<SpriteRenderer>();
+        amt = GetComponent<Animator>();
         chips = new List<GameObject>(GameObject.FindGameObjectsWithTag("Chip"));
         SetVirusToChip();
     }
@@ -20,14 +24,17 @@ public class VirusStaticBehaviours : MonoBehaviour
     private void FixedUpdate()
     {
         transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
-        
+        amt.SetBool("left", ((target.transform.position.x > transform.position.x || target.transform.position.x < transform.position.x) && chips.Count != 0) ? true : false);
+
+        //amt.SetBool("behind", ((target.transform.position.y > transform.position.y ) && amt.GetBool("left") == false && chips.Count != 0) ? true : false);
+        //animChange = (Mathf.Abs(target.transform.position.x) - Mathf.Abs(transform.position.x) > Mathf.Abs(target.transform.position.y) - Mathf.Abs(transform.position.y)) ? true : false;
     }
 
     public void SetVirusToChip()
     {
         numChip = Random.Range(0, chips.Count);
         this.target = chips[numChip].gameObject.GetComponent<Transform>();
-        print(numChip);
+        sr.flipX = (target.transform.position.x > transform.position.x) ? true : false;
     }
     private void OnCollisionEnter2D(Collision2D col)
     {

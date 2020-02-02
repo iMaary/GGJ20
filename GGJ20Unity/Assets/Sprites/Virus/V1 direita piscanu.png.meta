@@ -1,7 +1,49 @@
 fileFormatVersion: 2
 guid: 52afb44d9e9be1048abeb563deabec44
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -9063309996759335306
+    second: V1 direita piscanu_0
+  - first:
+      213: -6900491261016744208
+    second: V1 direita piscanu_2
+  - first:
+      213: -2610523755457006381
+    second: V1 direita piscanu_3
+  - first:
+      213: 7920533467500667937
+    second: V1 direita piscanu_4
+  - first:
+      213: -3863605210875781640
+    second: V1 direita piscanu_5
+  - first:
+      213: -368003323500441274
+    second: V1 direita piscanu_6
+  - first:
+      213: 8512740062521015164
+    second: V1 direita piscanu_7
+  - first:
+      213: -6160373547068134304
+    second: V1 direita piscanu_8
+  - first:
+      213: 4567518133451746598
+    second: V1 direita piscanu_9
+  - first:
+      213: 7036505842997714473
+    second: V1 direita piscanu_10
+  - first:
+      213: 2404111297973294625
+    second: V1 direita piscanu_11
+  - first:
+      213: -5991346379355151183
+    second: V1 direita piscanu_12
+  - first:
+      213: -5413918302376912627
+    second: V1 direita piscanu_13
+  - first:
+      213: 6739661478914288238
+    second: V1 direita piscanu_14
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -31,7 +73,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -40,12 +82,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -63,7 +105,40 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -71,7 +146,301 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: V1 direita piscanu_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 20
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcf5abccff671224fad9586b6bee1362
+      internalID: -9063309996759335306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V1 direita piscanu_2
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 14
+        width: 66
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 562b310ed88d7134bac3b221ad0c4f42
+      internalID: -6900491261016744208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V1 direita piscanu_3
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 11
+        width: 66
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e43fd31f5d531384a8d0ec9cd0eb2312
+      internalID: -2610523755457006381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V1 direita piscanu_4
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 16
+        width: 66
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec8168bf9aa44a24cb0ebbcd51e357e1
+      internalID: 7920533467500667937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V1 direita piscanu_5
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 76
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd2f457601053014886d0f0e2863ea26
+      internalID: -3863605210875781640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V1 direita piscanu_6
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 12
+        width: 66
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a4c3a4943378dc49a87ce8ee932d8c9
+      internalID: -368003323500441274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V1 direita piscanu_7
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 14
+        width: 66
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc764b8d0b4c044a9d19b4425fe4261
+      internalID: 8512740062521015164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V1 direita piscanu_8
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 8
+        width: 66
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07d0ac616ea64ca4693ca0897c9779d5
+      internalID: -6160373547068134304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V1 direita piscanu_9
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 72
+        width: 14
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e64d9fbbed7c9e541bb4adeb85d2eb59
+      internalID: 4567518133451746598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V1 direita piscanu_10
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 10
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f99aa06b97dccfc4f875afae3655e613
+      internalID: 7036505842997714473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V1 direita piscanu_11
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 10
+        width: 66
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b87016f57f7e10449a13f886cada241f
+      internalID: 2404111297973294625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V1 direita piscanu_12
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 12
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44f91bd2e42342941ad4e6d0e175cf53
+      internalID: -5991346379355151183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V1 direita piscanu_13
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 12
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b17f0083d3e483040b2a04645864946a
+      internalID: -5413918302376912627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V1 direita piscanu_14
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 14
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a91e32e8b6f4eb48b48890e8ef0ce16
+      internalID: 6739661478914288238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
