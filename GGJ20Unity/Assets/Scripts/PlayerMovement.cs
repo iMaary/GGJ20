@@ -1,6 +1,7 @@
 ﻿    using System.Collections;
     using System.Collections.Generic;
     using UnityEngine;
+    using UnityEngine.SceneManagement;
 
     public class PlayerMovement : MonoBehaviour
     {
@@ -13,6 +14,9 @@
 
         bool inMovement, invulnerable, canWalk;   
         [SerializeField]float lifeCurrent;
+
+        public GameObject bomb;
+        [SerializeField]GameObject[] life;
 
         public float speed, lifeBase;
 
@@ -40,7 +44,34 @@
         {
             Hurt();
         }
+        if (lifeCurrent == 3)
+        {
+            life[3].GetComponent<Animator>().enabled = true;
+        }
+        else if (lifeCurrent == 2)
+        {
+            life[2].GetComponent<Animator>().enabled = true;
+        }
+        else if (lifeCurrent == 1)
+        {
+            life[1].GetComponent<Animator>().enabled = true;
+
+        }
+        else if (lifeCurrent == 0)
+        {
+            life[0].GetComponent<Animator>().enabled = true;
+            Destroy(this.gameObject);
+            bomb.SetActive(true);
+            StartCoroutine(a());
+        }
+
     }
+        
+        IEnumerator a()
+        {
+            yield return new WaitForSeconds(2);
+            SceneManager.LoadScene(0);
+        }
 
         void LifeSystem()
         {
@@ -52,7 +83,9 @@
             {
                 lifeBase *= 1f;
             }
-        }
+
+            
+    }
 
         private void OnTriggerStay2D(Collider2D collision)
         {
