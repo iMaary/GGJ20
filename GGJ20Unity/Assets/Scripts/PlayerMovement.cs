@@ -58,6 +58,7 @@
 
         Vector3 movementPlayer;
         OffensiveBehaviour offensiveScript = GetComponent<OffensiveBehaviour>();
+        RepairManBehaviour repairmanScript = GetComponent<RepairManBehaviour>();
 
         if (typePlayer == 0)
         {
@@ -77,7 +78,12 @@
                 movementPlayer = new Vector3(Input.GetAxis("HorizontalRepairman"), Input.GetAxis("VerticalRepairman"), 0f);
                 if (Input.GetAxis("HorizontalRepairman") == 0 && Input.GetAxis("VerticalRepairman") == 0) inMovement = false;
                 else inMovement = true;
-            }
+
+                anim.SetBool("up", repairmanScript.upRep);
+                anim.SetBool("right", repairmanScript.rightRep);
+                anim.SetBool("down", repairmanScript.downRep);
+                anim.SetBool("left", repairmanScript.leftRep);
+        }
 
         //use of getaxisraw? - smooth movement V
         //animation in blend tree V

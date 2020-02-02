@@ -11,6 +11,8 @@ public class RepairManBehaviour : MonoBehaviour
     private GameObject oPuzzle;
     private GameObject fixing;
 
+    public bool leftRep, rightRep, upRep, downRep;
+
     [SerializeField]
     public GameObject telaPuzzle;
     private bool onPuzzle = false;
@@ -26,6 +28,42 @@ public class RepairManBehaviour : MonoBehaviour
     void Update()
     {
         if (onPuzzle) Puzzle();
+        setDir();
+    }
+
+    void setDir()
+    {
+        //set diretions
+        if (Input.GetKeyDown(KeyCode.UpArrow))
+        {
+            leftRep = false;
+            rightRep = false;
+            upRep = true;
+            downRep = false;
+        }
+
+        else if (Input.GetKeyDown(KeyCode.DownArrow))
+        {
+            leftRep = false;
+            rightRep = false;
+            upRep = false;  
+            downRep = true;
+        }
+        else if (Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            leftRep = false;
+            rightRep = true;
+            upRep = false;
+            downRep = false;
+        }
+
+        else if (Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+            leftRep = true;
+            rightRep = false;
+            upRep = false;
+            downRep = false;
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D col)
