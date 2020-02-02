@@ -60,8 +60,8 @@
         else if (lifeCurrent == 0)
         {
             life[0].GetComponent<Animator>().enabled = true;
-            Destroy(this.gameObject);
             bomb.SetActive(true);
+            sr.enabled = false;
             StartCoroutine(a());
         }
 
