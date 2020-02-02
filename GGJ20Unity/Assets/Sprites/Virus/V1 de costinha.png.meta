@@ -32,6 +32,15 @@ TextureImporter:
   - first:
       213: -8121238755663164598
     second: V1 de costinha_13
+  - first:
+      213: 4843444581488636889
+    second: V1 de costinha_1
+  - first:
+      213: -7606212295345017260
+    second: V1 de costinha_6
+  - first:
+      213: -3947465472220472945
+    second: V1 de costinha_8
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -139,10 +148,10 @@ TextureImporter:
       name: V1 de costinha_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 16
-        width: 72
-        height: 70
+        x: 0
+        y: 0
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,8 +159,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d46aeaf67d38e244597e3b6427c76434
+      spriteID: 98c56a498003c3f49b123f43ccb26f5b
       internalID: -2525729860818959766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V1 de costinha_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f53006be0689343b568cf0bbbbf192
+      internalID: 4843444581488636889
       vertices: []
       indices: 
       edges: []
@@ -160,10 +190,10 @@ TextureImporter:
       name: V1 de costinha_2
       rect:
         serializedVersion: 2
-        x: 116
-        y: 14
-        width: 72
-        height: 72
+        x: 200
+        y: 0
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,7 +201,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d1f6e0e6adf9e6e4e9a538d366b9afde
+      spriteID: 484e9c7cef5cfc742972f2aa0d620e12
       internalID: 9108571346427621696
       vertices: []
       indices: 
@@ -181,10 +211,10 @@ TextureImporter:
       name: V1 de costinha_3
       rect:
         serializedVersion: 2
-        x: 216
-        y: 12
-        width: 72
-        height: 72
+        x: 300
+        y: 0
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,7 +222,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb00325458d2c204eb47ef9f6b258ded
+      spriteID: 05d75ff8bb400ac4dab289411172c039
       internalID: 6711563605004177803
       vertices: []
       indices: 
@@ -202,10 +232,10 @@ TextureImporter:
       name: V1 de costinha_4
       rect:
         serializedVersion: 2
-        x: 316
-        y: 8
-        width: 72
-        height: 74
+        x: 400
+        y: 0
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,7 +243,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb604b7ce888cc3438bf8969eafd5eb7
+      spriteID: 1f28133272acaa54c8e1bbac9e6cb4de
       internalID: 1313762670966442037
       vertices: []
       indices: 
@@ -223,10 +253,10 @@ TextureImporter:
       name: V1 de costinha_5
       rect:
         serializedVersion: 2
-        x: 816
-        y: 12
-        width: 72
-        height: 70
+        x: 500
+        y: 0
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -234,8 +264,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8137f1b885a8c4647957cbd0a9e9768c
+      spriteID: 4d497dee6de3f96488846c06e710765d
       internalID: -3848730089271362226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V1 de costinha_6
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a7e9be158623544be6b882c87edbef
+      internalID: -7606212295345017260
       vertices: []
       indices: 
       edges: []
@@ -244,10 +295,10 @@ TextureImporter:
       name: V1 de costinha_7
       rect:
         serializedVersion: 2
-        x: 416
-        y: 6
-        width: 72
-        height: 66
+        x: 700
+        y: 0
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -255,20 +306,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2118677710eece745b79fb7c5e609ddc
+      spriteID: 2c770253a61cfba49b494b62b1c8f0c7
       internalID: 1341452771727040715
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: V1 de costinha_9
+      name: V1 de costinha_8
       rect:
         serializedVersion: 2
-        x: 516
-        y: 4
-        width: 72
-        height: 70
+        x: 800
+        y: 0
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -276,71 +327,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02f245ad86135964181cba3f4c42ace3
-      internalID: 844962661223882542
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: V1 de costinha_11
-      rect:
-        serializedVersion: 2
-        x: 616
-        y: 8
-        width: 72
-        height: 70
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 72af068cf98f82c48b4bc25799e1fe75
-      internalID: -5373094709255736343
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: V1 de costinha_12
-      rect:
-        serializedVersion: 2
-        x: 716
-        y: 10
-        width: 72
-        height: 68
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 95a5c25af9003a445b5caec46c472f85
-      internalID: -4756444555120957663
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: V1 de costinha_13
-      rect:
-        serializedVersion: 2
-        x: 632
-        y: 4
-        width: 10
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0f7c4f7f0d2a1234f8e534235fd0c4ff
-      internalID: -8121238755663164598
+      spriteID: 6e705543778256042a071f82e0890c85
+      internalID: -3947465472220472945
       vertices: []
       indices: 
       edges: []

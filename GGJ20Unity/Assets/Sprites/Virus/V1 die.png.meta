@@ -1,49 +1,34 @@
 fileFormatVersion: 2
-guid: 80a967c0fc28ce34bacb12b8dba762d1
+guid: c6d4641acc3b58542b33312e50585b38
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1134164402627094643
-    second: V1 esquerdinha_0
+      213: 4569501098132753159
+    second: V1 die_0
   - first:
-      213: -4098403745469411107
-    second: V1 esquerdinha_2
+      213: -8657724543383947531
+    second: V1 die_1
   - first:
-      213: -6461540483374121305
-    second: V1 esquerdinha_3
+      213: -1472974437613798637
+    second: V1 die_2
   - first:
-      213: -5758371612407281587
-    second: V1 esquerdinha_4
+      213: -2891928465596087692
+    second: V1 die_3
   - first:
-      213: -6982769158114414370
-    second: V1 esquerdinha_6
+      213: -1807393826002781268
+    second: V1 die_4
   - first:
-      213: 2536240383245435375
-    second: V1 esquerdinha_7
+      213: -2727824367179344220
+    second: V1 die_5
   - first:
-      213: 1576311140935773221
-    second: V1 esquerdinha_8
+      213: 499314091332529241
+    second: V1 die_6
   - first:
-      213: 1706112566179896754
-    second: V1 esquerdinha_9
+      213: 2017040464124828865
+    second: V1 die_7
   - first:
-      213: 8166014739225701711
-    second: V1 esquerdinha_10
-  - first:
-      213: -7341628034101140558
-    second: V1 esquerdinha_11
-  - first:
-      213: -954949589107587191
-    second: V1 esquerdinha_12
-  - first:
-      213: 7721763121855649498
-    second: V1 esquerdinha_13
-  - first:
-      213: 8263247346187066096
-    second: V1 esquerdinha_1
-  - first:
-      213: 6534373851683341886
-    second: V1 esquerdinha_5
+      213: -7481158189777152913
+    second: V1 die_8
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -87,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -148,13 +133,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: V1 esquerdinha_0
+      name: V1 die_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 100
-        height: 100
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,20 +147,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8a68af83fdc91e40b8a3235fee559b6
-      internalID: 1134164402627094643
+      spriteID: 86a8275dfc127d94a91bbe2f68d546bd
+      internalID: 4569501098132753159
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: V1 esquerdinha_1
+      name: V1 die_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a6b5aedb9d87bf40b1f7f95e1fbc418
+      internalID: -8657724543383947531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V1 die_2
       rect:
         serializedVersion: 2
         x: 100
         y: 0
-        width: 100
-        height: 100
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -183,20 +189,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93297f75e9faa12488264d925156b93e
-      internalID: 8263247346187066096
+      spriteID: 95f4c0bf4ad0df847b2713553c978175
+      internalID: -1472974437613798637
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: V1 esquerdinha_2
+      name: V1 die_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c6984a4bebae184495d77df04e6909c
+      internalID: -2891928465596087692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V1 die_4
       rect:
         serializedVersion: 2
         x: 200
         y: 0
-        width: 100
-        height: 100
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,20 +231,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b193090ebc50321428af3bf82fc52a96
-      internalID: -4098403745469411107
+      spriteID: a07fabd9c4ca6be4b851bd7179b42bfc
+      internalID: -1807393826002781268
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: V1 esquerdinha_3
+      name: V1 die_5
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39bfa7c9ecf12d54db6e4aba81b7d920
+      internalID: -2727824367179344220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V1 die_6
       rect:
         serializedVersion: 2
         x: 300
         y: 0
-        width: 100
-        height: 100
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,20 +273,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc316a781297d5c46ad9f681e710a0f3
-      internalID: -6461540483374121305
+      spriteID: 0b271380d7e5ff64d9a1874c1168a0f6
+      internalID: 499314091332529241
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: V1 esquerdinha_4
+      name: V1 die_7
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc2240730fcd8547be039a428cca11c
+      internalID: 2017040464124828865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V1 die_8
       rect:
         serializedVersion: 2
         x: 400
         y: 0
-        width: 100
-        height: 100
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -246,92 +315,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 179d54e5fd4493e4c99c75a22c1be7ea
-      internalID: -5758371612407281587
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: V1 esquerdinha_5
-      rect:
-        serializedVersion: 2
-        x: 500
-        y: 0
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2bb4396eeb5c9d74c9a869bdf311ffeb
-      internalID: 6534373851683341886
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: V1 esquerdinha_6
-      rect:
-        serializedVersion: 2
-        x: 600
-        y: 0
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 24570d910fbc05a469ae28ebdc1e6ca3
-      internalID: -6982769158114414370
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: V1 esquerdinha_7
-      rect:
-        serializedVersion: 2
-        x: 700
-        y: 0
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 352131fe4657f3246bbb9a3cb5ed6b79
-      internalID: 2536240383245435375
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: V1 esquerdinha_8
-      rect:
-        serializedVersion: 2
-        x: 800
-        y: 0
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 930e9f4b42242ed4f942eba831d3b21c
-      internalID: 1576311140935773221
+      spriteID: d351c5e28a464904094e27d9c5c6aac7
+      internalID: -7481158189777152913
       vertices: []
       indices: 
       edges: []
@@ -339,7 +324,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: c6c5ae4e351dd5042ad4e0405352b244
+    spriteID: 2e7d7faee468b0046b0de29b83be82e4
     internalID: 0
     vertices: []
     indices: 

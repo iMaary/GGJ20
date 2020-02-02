@@ -13,6 +13,7 @@ public class VirusStaticBehaviours : MonoBehaviour
     private GameObject corrompendo;
     private bool isLoose = false, animChange;
     private string atkp;
+    private bool testDistance;
 
     private void Start()
     {
@@ -25,7 +26,12 @@ public class VirusStaticBehaviours : MonoBehaviour
     private void FixedUpdate()
     {
         transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
-        amt.SetBool("left", ((target.transform.position.x > transform.position.x || target.transform.position.x < transform.position.x) && chips.Count != 0) ? true : false);
+        //amt.SetBool("left", ((target.transform.position.x > transform.position.x || target.transform.position.x < transform.position.x) && chips.Count != 0) ? true : false);
+
+        testDistance = ((target.transform.position.x > transform.position.x || target.transform.position.x < transform.position.x) &&
+            Mathf.Abs(target.transform.position.x) - Mathf.Abs(transform.position.x) > Mathf.Abs(target.transform.position.y) - Mathf.Abs(transform.position.y)) && chips.Count != 0;
+        amt.SetBool("left", testDistance);
+        amt.SetBool("behind", target.transform.position.y > transform.position.y && testDistance == false);
         //if()
 
         //amt.SetBool("behind", ((target.transform.position.y > transform.position.y ) && amt.GetBool("left") == false && chips.Count != 0) ? true : false);
