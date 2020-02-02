@@ -11,7 +11,7 @@
         SpriteRenderer sr;
         Animator anim;
 
-        bool inMovement;   
+        bool inMovement, invulnerable, canWalk;   
         [SerializeField]float lifeCurrent;
 
         public float speed, lifeBase;
@@ -29,12 +29,18 @@
         {
             if (typePlayer == 0) speed *= 1.5f;
             else speed *= 1f;
+            canWalk = true;
         }
 
         void Update()
         {
             Movement();
+
+        if (Input.GetKeyDown(KeyCode.F) && !invulnerable)
+        {
+            Hurt();
         }
+    }
 
         void LifeSystem()
         {
@@ -48,9 +54,37 @@
             }
         }
 
+        private void OnTriggerStay2D(Collider2D collision)
+        {
+                 if(collision.gameObject.tag == "VirusOffensive" && !invulnerable)
+                 {
+                    Hurt();
+                 }
+        }
+
         void Hurt()
         {
             lifeCurrent--;
+            invulnerable = true; canWalk = false;
+            StartCoroutine(HurtAgain());
+            StartCoroutine(PiscarinEnglish());
+        }
+
+        IEnumerator PiscarinEnglish()
+        {
+            for(int i = 0; i < 6; i++)
+            {
+                yield return new WaitForSeconds(0.165f);
+                sr.enabled = (i % 2) != 0;
+            }
+        }
+
+        IEnumerator HurtAgain()
+        {
+            yield return new WaitForSeconds(.5f);
+            canWalk = true;
+            yield return new WaitForSeconds(.5f);
+            invulnerable = false;
         }
 
         void Movement()
@@ -96,7 +130,7 @@
         /if you complete the arcade:
         level editor*/
 
-        if (typePlayer == 0 && offensiveScript.isAttacking) { }
+        if (typePlayer == 0 && offensiveScript.isAttacking || !canWalk) { }
             else transform.position = transform.position + movementPlayer * speed * Time.deltaTime;
         }
     }

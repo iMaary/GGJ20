@@ -64,8 +64,10 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\ChipsBehaviours.cs" />
     <Compile Include="Assets\Scripts\OffensiveBehaviour.cs" />
+    <Compile Include="Assets\Scripts\Pause.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\RepairManBehaviour.cs" />
+    <Compile Include="Assets\Scripts\SceneController.cs" />
     <Compile Include="Assets\Scripts\VirusOffensiveBehaviour.cs" />
     <Compile Include="Assets\Scripts\VirusOffensiveRange.cs" />
     <Compile Include="Assets\Scripts\VirusStaticBehaviours.cs" />
