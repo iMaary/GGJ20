@@ -9,6 +9,7 @@ public class VirusStaticBehaviours : MonoBehaviour
     private int numChip, numChipBefore;
     private Transform target;
     private GameObject corrompendo;
+    private bool isLoose = false;
 
     private void Start()
     {
@@ -19,6 +20,7 @@ public class VirusStaticBehaviours : MonoBehaviour
     private void FixedUpdate()
     {
         transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
+        
     }
 
     public void SetVirusToChip()
@@ -47,6 +49,8 @@ public class VirusStaticBehaviours : MonoBehaviour
         chips = new List<GameObject>(GameObject.FindGameObjectsWithTag("Chip"));
         if (chips.Count != 0)
             SetVirusToChip();
+        else
+            print("you loose");
     }
     
 
