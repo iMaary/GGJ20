@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - Corrompido
+  - Chip
+  - VirusStatic
+  - Player 1
+  - Player 0
+  - VirusOffensive
   layers:
   - Default
   - TransparentFX

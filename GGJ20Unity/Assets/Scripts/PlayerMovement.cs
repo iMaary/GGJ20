@@ -12,11 +12,14 @@
         Animator anim;
 
         bool inMovement;   
+        [SerializeField]float lifeCurrent;
 
-        public float speed;
+        public float speed, lifeBase;
 
         void Awake()
         {
+            LifeSystem();
+            lifeCurrent = lifeBase;
             rb = GetComponent<Rigidbody2D>();
             sr = GetComponent<SpriteRenderer>();
             anim = GetComponent<Animator>();
@@ -30,14 +33,37 @@
 
         void Update()
         {
+            Movement();
+        }
+
+        void LifeSystem()
+        {
+            if(typePlayer == 0)
+            {
+                lifeBase *= 2f;
+            }
+            else
+            {
+                lifeBase *= 1f;
+            }
+        }
+
+        void Hurt()
+        {
+            lifeCurrent--;
+        }
+
+        void Movement()
+        {
 
         Vector3 movementPlayer;
         OffensiveBehaviour offensiveScript = GetComponent<OffensiveBehaviour>();
+
         if (typePlayer == 0)
         {
             movementPlayer = new Vector3(Input.GetAxis("HorizontalOffensive"), Input.GetAxis("VerticalOffensive"), 0f);
             if (Input.GetAxis("HorizontalOffensive") == 0 && Input.GetAxis("VerticalOffensive") == 0) inMovement = false;
-                else inMovement = true;
+            else inMovement = true;
 
             anim.SetBool("up", offensiveScript.upOff);
             anim.SetBool("right", offensiveScript.rightOff);
@@ -45,11 +71,13 @@
             anim.SetBool("left", offensiveScript.leftOff);
             anim.SetBool("attack", offensiveScript.isAttacking);
         }
-        else {
-            movementPlayer = new Vector3(Input.GetAxis("HorizontalRepairman"), Input.GetAxis("VerticalRepairman"), 0f);
-            if (Input.GetAxis("HorizontalRepairman") == 0 && Input.GetAxis("VerticalRepairman") == 0) inMovement = false;
-                else inMovement = true; 
-        }
+
+            else
+            {
+                movementPlayer = new Vector3(Input.GetAxis("HorizontalRepairman"), Input.GetAxis("VerticalRepairman"), 0f);
+                if (Input.GetAxis("HorizontalRepairman") == 0 && Input.GetAxis("VerticalRepairman") == 0) inMovement = false;
+                else inMovement = true;
+            }
 
         //use of getaxisraw? - smooth movement V
         //animation in blend tree V
@@ -62,7 +90,7 @@
         /if you complete the arcade:
         level editor*/
 
-        if(typePlayer == 0 && offensiveScript.isAttacking) { }
-        else transform.position = transform.position + movementPlayer * speed * Time.deltaTime;
+        if (typePlayer == 0 && offensiveScript.isAttacking) { }
+            else transform.position = transform.position + movementPlayer * speed * Time.deltaTime;
         }
     }

@@ -734,6 +734,21 @@ PrefabInstance:
       propertyPath: attackObjects.Array.data[7]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 8564399232314895184, guid: 56c56c03308a7294288987465ed9555e,
+        type: 3}
+      propertyPath: timeAttack
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8564399232314895184, guid: 56c56c03308a7294288987465ed9555e,
+        type: 3}
+      propertyPath: canAttack
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8564399232314895184, guid: 56c56c03308a7294288987465ed9555e,
+        type: 3}
+      propertyPath: cooldownAttack
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3615936912055174332, guid: 56c56c03308a7294288987465ed9555e,
         type: 3}
       propertyPath: m_Color.r
