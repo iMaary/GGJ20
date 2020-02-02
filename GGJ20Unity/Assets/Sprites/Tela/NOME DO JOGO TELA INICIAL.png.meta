@@ -1,7 +1,70 @@
 fileFormatVersion: 2
 guid: 1824a99fc7a6470459620a0e631cff1b
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 2576859897382659809
+    second: NOME DO JOGO TELA INICIAL_0
+  - first:
+      213: 5846223734984492483
+    second: NOME DO JOGO TELA INICIAL_1
+  - first:
+      213: 4487786042635153432
+    second: NOME DO JOGO TELA INICIAL_2
+  - first:
+      213: 6793501377370453486
+    second: NOME DO JOGO TELA INICIAL_3
+  - first:
+      213: 6671068684267177194
+    second: NOME DO JOGO TELA INICIAL_4
+  - first:
+      213: 1208028844201953443
+    second: NOME DO JOGO TELA INICIAL_5
+  - first:
+      213: 2477755818139753990
+    second: NOME DO JOGO TELA INICIAL_6
+  - first:
+      213: -9033418201382182799
+    second: NOME DO JOGO TELA INICIAL_7
+  - first:
+      213: -5727677483333403160
+    second: NOME DO JOGO TELA INICIAL_8
+  - first:
+      213: 7517707273008018832
+    second: NOME DO JOGO TELA INICIAL_9
+  - first:
+      213: -3499514314881791772
+    second: NOME DO JOGO TELA INICIAL_10
+  - first:
+      213: 458024881313459641
+    second: NOME DO JOGO TELA INICIAL_11
+  - first:
+      213: -5369201385605089579
+    second: NOME DO JOGO TELA INICIAL_12
+  - first:
+      213: 963549118435622138
+    second: NOME DO JOGO TELA INICIAL_13
+  - first:
+      213: -671846536586912388
+    second: NOME DO JOGO TELA INICIAL_14
+  - first:
+      213: 2072969574962424721
+    second: NOME DO JOGO TELA INICIAL_15
+  - first:
+      213: -3041280595137155667
+    second: NOME DO JOGO TELA INICIAL_16
+  - first:
+      213: 1995750382724945468
+    second: NOME DO JOGO TELA INICIAL_17
+  - first:
+      213: 1187761164729857632
+    second: NOME DO JOGO TELA INICIAL_18
+  - first:
+      213: 3178867380479649819
+    second: NOME DO JOGO TELA INICIAL_19
+  - first:
+      213: -7658547624042190437
+    second: NOME DO JOGO TELA INICIAL_20
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -104,7 +167,448 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: NOME DO JOGO TELA INICIAL_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1750
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d81e51a3a73d1074cbd68a25bac60522
+      internalID: 2576859897382659809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOME DO JOGO TELA INICIAL_1
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1750
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f51acc74e14e75429fc1616ebc27240
+      internalID: 5846223734984492483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOME DO JOGO TELA INICIAL_2
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1750
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e27ac2ad1cd1ea48a74191bb55a18ce
+      internalID: 4487786042635153432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOME DO JOGO TELA INICIAL_3
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1750
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9737f6083829cec4b91bd7a5fef29f5e
+      internalID: 6793501377370453486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOME DO JOGO TELA INICIAL_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1400
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da0f3dc74e1d074c84ab565b901e120
+      internalID: 6671068684267177194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOME DO JOGO TELA INICIAL_5
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1400
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a9043549fb976459758453f10e81a3
+      internalID: 1208028844201953443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOME DO JOGO TELA INICIAL_6
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1400
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1a9302fe49a1b146855fc78bae3a431
+      internalID: 2477755818139753990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOME DO JOGO TELA INICIAL_7
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1400
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca3064ec5c4443f468a29820e9731a95
+      internalID: -9033418201382182799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOME DO JOGO TELA INICIAL_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1050
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3abc6e9c63c5bd64681ba987d2466615
+      internalID: -5727677483333403160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOME DO JOGO TELA INICIAL_9
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1050
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a860c0c4e0fbf74783e9fbc8a88ba29
+      internalID: 7517707273008018832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOME DO JOGO TELA INICIAL_10
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1050
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0df16455c478834bb5d828785205614
+      internalID: -3499514314881791772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOME DO JOGO TELA INICIAL_11
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1050
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f6e37d059680648a5d3375c6cfac2f
+      internalID: 458024881313459641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOME DO JOGO TELA INICIAL_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 700
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9127634be92e4284e969a71eb5814a3e
+      internalID: -5369201385605089579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOME DO JOGO TELA INICIAL_13
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 700
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3684594aaebf473418a85d7c850e79a9
+      internalID: 963549118435622138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOME DO JOGO TELA INICIAL_14
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 700
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62108eb2987f2604385c8cb831c582d1
+      internalID: -671846536586912388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOME DO JOGO TELA INICIAL_15
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 700
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b3bd737da896644ca2817d37d6e307c
+      internalID: 2072969574962424721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOME DO JOGO TELA INICIAL_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 350
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec33217e3a9f934e941ba9ac9cfd0ba
+      internalID: -3041280595137155667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOME DO JOGO TELA INICIAL_17
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 350
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f10331236d756c245bcbab1d60e2240a
+      internalID: 1995750382724945468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOME DO JOGO TELA INICIAL_18
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 350
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 368d4a74a1f56da46b67cd2238d5b191
+      internalID: 1187761164729857632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOME DO JOGO TELA INICIAL_19
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 350
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10e00e0dab844b94c99528bb4735e8a2
+      internalID: 3178867380479649819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOME DO JOGO TELA INICIAL_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec5e1a9ff16325f45b4a75641dff4119
+      internalID: -7658547624042190437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

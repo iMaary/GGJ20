@@ -1,7 +1,79 @@
 fileFormatVersion: 2
 guid: eca882ee683de5341990673c7cbea5bc
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -83792134648851906
+    second: TELA INICIAL_0
+  - first:
+      213: 799116409961102938
+    second: TELA INICIAL_1
+  - first:
+      213: -6845394471124737442
+    second: TELA INICIAL_2
+  - first:
+      213: 1006836614791753650
+    second: TELA INICIAL_3
+  - first:
+      213: 8598951741600268075
+    second: TELA INICIAL_4
+  - first:
+      213: 490339175648702282
+    second: TELA INICIAL_5
+  - first:
+      213: -2291526442460033383
+    second: TELA INICIAL_6
+  - first:
+      213: 5929730198231936404
+    second: TELA INICIAL_7
+  - first:
+      213: -8180539661025289898
+    second: TELA INICIAL_8
+  - first:
+      213: 8443180056846625778
+    second: TELA INICIAL_9
+  - first:
+      213: -5887782221385141088
+    second: TELA INICIAL_10
+  - first:
+      213: 9179791749005321816
+    second: TELA INICIAL_11
+  - first:
+      213: 4003621067607305620
+    second: TELA INICIAL_12
+  - first:
+      213: -1589047431621599147
+    second: TELA INICIAL_13
+  - first:
+      213: -6458773052768090971
+    second: TELA INICIAL_14
+  - first:
+      213: 1972160297296089389
+    second: TELA INICIAL_15
+  - first:
+      213: -2205972130144608982
+    second: TELA INICIAL_16
+  - first:
+      213: -1806426787625130928
+    second: TELA INICIAL_17
+  - first:
+      213: 7178931232568305346
+    second: TELA INICIAL_18
+  - first:
+      213: -7872831944661314312
+    second: TELA INICIAL_19
+  - first:
+      213: 258237857379726689
+    second: TELA INICIAL_20
+  - first:
+      213: -5530945011028963142
+    second: TELA INICIAL_21
+  - first:
+      213: 4843220034727423068
+    second: TELA INICIAL_22
+  - first:
+      213: 7057137289765000036
+    second: TELA INICIAL_23
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -104,7 +176,511 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: TELA INICIAL_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1750
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a58af808198ae84cb61d777a99b0a91
+      internalID: -83792134648851906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TELA INICIAL_1
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1750
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 928e668926bec9344a5dec05e4478b20
+      internalID: 799116409961102938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TELA INICIAL_2
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1750
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4788ee60e7a6cb4691d0ebaf466003c
+      internalID: -6845394471124737442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TELA INICIAL_3
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1750
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac6fda523fc1e74baea94b7f7ca4e97
+      internalID: 1006836614791753650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TELA INICIAL_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1400
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca58ff5e76f4bde458bf17396dc44a89
+      internalID: 8598951741600268075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TELA INICIAL_5
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1400
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f767e72e3521b5449ae8fe9f402d614e
+      internalID: 490339175648702282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TELA INICIAL_6
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1400
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bccc4cc69bf2ba64a9c37104e7d362c7
+      internalID: -2291526442460033383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TELA INICIAL_7
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1400
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6773b0c0f30faa4db0a69786a65e506
+      internalID: 5929730198231936404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TELA INICIAL_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1050
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28de5da9723c5a44f8f42e5ed076a5e4
+      internalID: -8180539661025289898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TELA INICIAL_9
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1050
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b055fce8887317843a85c02d22ca13fc
+      internalID: 8443180056846625778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TELA INICIAL_10
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1050
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d071688f3f807684f977377cb6ee7e1b
+      internalID: -5887782221385141088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TELA INICIAL_11
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1050
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fee03b0c2d23774fbc3b63736a10996
+      internalID: 9179791749005321816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TELA INICIAL_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 700
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb4ba6ef21d6ec489bb20a5bcbe5919
+      internalID: 4003621067607305620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TELA INICIAL_13
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 700
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1215b3527e3281c4f8e8a2ebc4171084
+      internalID: -1589047431621599147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TELA INICIAL_14
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 700
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083b21c4a5e36a3439aa92ef31ec69ac
+      internalID: -6458773052768090971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TELA INICIAL_15
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 700
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04177a07dd190d64d90bcd1f96a46c13
+      internalID: 1972160297296089389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TELA INICIAL_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 350
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d1e0aa5dde81745901645670ee8d39
+      internalID: -2205972130144608982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TELA INICIAL_17
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 350
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2322ef2571f1b654d9e3d33c138898ab
+      internalID: -1806426787625130928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TELA INICIAL_18
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 350
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10824879345452246abcb28a19157888
+      internalID: 7178931232568305346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TELA INICIAL_19
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 350
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d2f4afb52adda644ae65566e4e6c721
+      internalID: -7872831944661314312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TELA INICIAL_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc2d05106275f024981366935bc639e6
+      internalID: 258237857379726689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TELA INICIAL_21
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab0a6d489c0385140ab7edd8bd100308
+      internalID: -5530945011028963142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TELA INICIAL_22
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14dd697d919b4d74d873e1a48527914c
+      internalID: 4843220034727423068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TELA INICIAL_23
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 0
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf46d17492dde54e8a39146bbfb4bf8
+      internalID: 7057137289765000036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

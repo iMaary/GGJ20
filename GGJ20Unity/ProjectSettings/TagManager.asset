@@ -48,3 +48,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Scenario
+    uniqueID: 2618753331
+    locked: 0
+  - name: Enemy
+    uniqueID: 1518126369
+    locked: 0
+  - name: Player
+    uniqueID: 2167652321
+    locked: 0
+  - name: HUD
+    uniqueID: 695836295
+    locked: 0
