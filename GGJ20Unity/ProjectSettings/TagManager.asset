@@ -10,6 +10,7 @@ TagManager:
   - Player 1
   - Player 0
   - VirusOffensive
+  - attackOffensive
   layers:
   - Default
   - TransparentFX
