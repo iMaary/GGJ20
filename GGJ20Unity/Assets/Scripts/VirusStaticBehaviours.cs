@@ -43,7 +43,7 @@ public class VirusStaticBehaviours : MonoBehaviour
         if (col.gameObject.tag == "Chip" && col.gameObject == chips[numChip].gameObject && col.gameObject.GetComponent<ChipsBehaviours>().breaked == false)
         {
             corrompendo = col.gameObject;
-            if(transform.position.x - col.transform.position.x >= 1f || transform.position.x - col.transform.position.x <= -1f)
+            if (transform.position.x - col.transform.position.x >= 1f || transform.position.x - col.transform.position.x <= -1f)
             {
                 atkp = "AtaqueLeft";
                 amt.SetBool("AtaqueLeft", true);
@@ -51,15 +51,14 @@ public class VirusStaticBehaviours : MonoBehaviour
             else
             {
                 atkp = (transform.position.y > col.gameObject.transform.position.y) ? "AtaqueIdle" : "AtaqueBhnd";
-                amt.SetBool(atkp, true);                
-            }            
-            Invoke("Corromper", 1.5f);  
+                amt.SetBool(atkp, true);
+            }
+            Invoke("Corromper", 1.5f);
         }
     }
     void Corromper()
     {
         corrompendo.gameObject.GetComponent<ChipsBehaviours>().breaked = true;
-        corrompendo.GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 0.8f);
         corrompendo.tag = "Corrompido";
         amt.SetBool(atkp, false);
         ReListar();
@@ -72,6 +71,6 @@ public class VirusStaticBehaviours : MonoBehaviour
         else
             print("you loose");
     }
-    
+
 
 }

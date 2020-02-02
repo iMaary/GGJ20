@@ -1,0 +1,1131 @@
+fileFormatVersion: 2
+guid: 73ab80c9da146654a91ad1d69999c359
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5259036235470910171
+    second: huehue (1)_0
+  - first:
+      213: -7515684319988066512
+    second: huehue (1)_1
+  - first:
+      213: -7158109183781177538
+    second: huehue (1)_2
+  - first:
+      213: 3274283699454860090
+    second: huehue (1)_3
+  - first:
+      213: -4750636101480482704
+    second: huehue (1)_4
+  - first:
+      213: 4476262915341298313
+    second: huehue (1)_5
+  - first:
+      213: -6706959592046950685
+    second: huehue (1)_6
+  - first:
+      213: 6617564921467023104
+    second: huehue (1)_7
+  - first:
+      213: 8883289263321653168
+    second: huehue (1)_8
+  - first:
+      213: 2813798448309738414
+    second: huehue (1)_9
+  - first:
+      213: -229096552564501979
+    second: huehue (1)_10
+  - first:
+      213: 5323814261792241472
+    second: huehue (1)_11
+  - first:
+      213: 1091466996550170763
+    second: huehue (1)_12
+  - first:
+      213: 8855785549249574754
+    second: huehue (1)_13
+  - first:
+      213: 2848934629136745398
+    second: huehue (1)_14
+  - first:
+      213: 194608319181020420
+    second: huehue (1)_15
+  - first:
+      213: 2107191032086824873
+    second: huehue (1)_16
+  - first:
+      213: 305596743886911357
+    second: huehue (1)_17
+  - first:
+      213: -1414661836478502263
+    second: huehue (1)_18
+  - first:
+      213: -1339626403452036222
+    second: huehue (1)_19
+  - first:
+      213: 432102272182756962
+    second: huehue (1)_20
+  - first:
+      213: -6653362316892869183
+    second: huehue (1)_21
+  - first:
+      213: 355164461903393673
+    second: huehue (1)_22
+  - first:
+      213: 7166136026874860833
+    second: huehue (1)_23
+  - first:
+      213: 6220656619935616402
+    second: huehue (1)_24
+  - first:
+      213: 7683087829917711448
+    second: huehue (1)_25
+  - first:
+      213: 7751281651869969092
+    second: huehue (1)_26
+  - first:
+      213: -3931206426406885118
+    second: huehue (1)_27
+  - first:
+      213: 5955990984286290750
+    second: huehue (1)_28
+  - first:
+      213: 6157282011632382279
+    second: huehue (1)_29
+  - first:
+      213: -1190992063142200800
+    second: huehue (1)_30
+  - first:
+      213: -2849952403096320178
+    second: huehue (1)_31
+  - first:
+      213: 8584458550168114476
+    second: huehue (1)_32
+  - first:
+      213: -4791084097769982827
+    second: huehue (1)_33
+  - first:
+      213: -3571724232256025901
+    second: huehue (1)_34
+  - first:
+      213: 8861103538117195079
+    second: huehue (1)_35
+  - first:
+      213: -470993033669824888
+    second: huehue (1)_36
+  - first:
+      213: -7955691495608616020
+    second: huehue (1)_37
+  - first:
+      213: 4866592623471359611
+    second: huehue (1)_38
+  - first:
+      213: 8575614326134351984
+    second: huehue (1)_39
+  - first:
+      213: 5858214959323562049
+    second: huehue (1)_40
+  - first:
+      213: -3316252534980596647
+    second: huehue (1)_41
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: huehue (1)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2100
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e2934e899407047bd5ab2d04cc141d
+      internalID: 5259036235470910171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huehue (1)_1
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 2100
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9254010bd7860b4fbb6acb18074cd16
+      internalID: -7515684319988066512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huehue (1)_2
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2100
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44e901b0b674c4f478da28aec50310d9
+      internalID: -7158109183781177538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huehue (1)_3
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2100
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6736405cb415df40972cc623c280f50
+      internalID: 3274283699454860090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huehue (1)_4
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2100
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e504e1e5702560840887bd1599069d7d
+      internalID: -4750636101480482704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huehue (1)_5
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2100
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a528c29d69166a843812ae45335eb983
+      internalID: 4476262915341298313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huehue (1)_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1750
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b16a6d931dd96408142ea34ce4ffdd
+      internalID: -6706959592046950685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huehue (1)_7
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1750
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87dc66fa40b898248b7ac57e10a7bd83
+      internalID: 6617564921467023104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huehue (1)_8
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1750
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f60d36e6d5fbe964aab41fe3566fbc93
+      internalID: 8883289263321653168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huehue (1)_9
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1750
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5615c86dda101e04b8c71f9991002c49
+      internalID: 2813798448309738414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huehue (1)_10
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1750
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ddb904687992d543894f1d1f3bc1359
+      internalID: -229096552564501979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huehue (1)_11
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1750
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ebd90a3b8474943b7fc0f61aef0960
+      internalID: 5323814261792241472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huehue (1)_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1400
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9458149167766c94da2644fe991ec206
+      internalID: 1091466996550170763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huehue (1)_13
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1400
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 638dda9cefd431045aa4fb0362926486
+      internalID: 8855785549249574754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huehue (1)_14
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1400
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a50a9c84b1f72e408cde9a1f7037313
+      internalID: 2848934629136745398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huehue (1)_15
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1400
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b52ef8c77863fb34b80c524cd9b6110d
+      internalID: 194608319181020420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huehue (1)_16
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1400
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b688b72044dde164ebdd587fa26d8bd8
+      internalID: 2107191032086824873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huehue (1)_17
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1400
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03c3938b1b75cb64eafab836391e6161
+      internalID: 305596743886911357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huehue (1)_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1050
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e629aa0697b7c764ebe96aa087017415
+      internalID: -1414661836478502263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huehue (1)_19
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1050
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdbd4671f5c579045ad3e170e77d41c2
+      internalID: -1339626403452036222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huehue (1)_20
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1050
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4766a832ebe8a924fbd285b869840d80
+      internalID: 432102272182756962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huehue (1)_21
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1050
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4b9edd65885b24f8c96a4ff3c877b9
+      internalID: -6653362316892869183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huehue (1)_22
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1050
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27c16ec71f05d68478c29f5c1c1d559e
+      internalID: 355164461903393673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huehue (1)_23
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1050
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff7493ce4f4a774a9830954611e7ab0
+      internalID: 7166136026874860833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huehue (1)_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 700
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef387fe1cccb22d4daed8c9f42d6f0a0
+      internalID: 6220656619935616402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huehue (1)_25
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 700
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b4c4d5f116d05548bd2b898d508d1a1
+      internalID: 7683087829917711448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huehue (1)_26
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 700
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d69bc0b917d18fe4d96c087625e61e78
+      internalID: 7751281651869969092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huehue (1)_27
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 700
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f08ae34f34e2b4db17752a1f196b85
+      internalID: -3931206426406885118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huehue (1)_28
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 700
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0261be210b271314d98ea301a7e004d7
+      internalID: 5955990984286290750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huehue (1)_29
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 700
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441a27deb638d364c86f22e53c0882e1
+      internalID: 6157282011632382279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huehue (1)_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 350
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b61267664619e43af9c58e100f1cde
+      internalID: -1190992063142200800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huehue (1)_31
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 350
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 473c59c69fa75c347acdb681aaba4708
+      internalID: -2849952403096320178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huehue (1)_32
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 350
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcfe6854e0dc66a4d871596fbb50ee84
+      internalID: 8584458550168114476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huehue (1)_33
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 350
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec40826b49da08446b7541250cfa8b76
+      internalID: -4791084097769982827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huehue (1)_34
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 350
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf0ae0dca645d74bb9d2d4ad83704e6
+      internalID: -3571724232256025901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huehue (1)_35
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 350
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d300dfcb9afc14bb848332dc6fd1d8
+      internalID: 8861103538117195079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huehue (1)_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42d35868863eac45a3566445bb9a0c2
+      internalID: -470993033669824888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huehue (1)_37
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d70a23d65674b9c439d0fa29f2d70b2f
+      internalID: -7955691495608616020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huehue (1)_38
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e0bc88317a7b145961c49e80b95150
+      internalID: 4866592623471359611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huehue (1)_39
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 0
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c72aea8891105194a8096ca1913b6c77
+      internalID: 8575614326134351984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huehue (1)_40
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0facc2912d1ea884695d34f358fc938e
+      internalID: 5858214959323562049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huehue (1)_41
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 0
+        width: 600
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f09cd2e316badd4ea899f1947bd33b3
+      internalID: -3316252534980596647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: affbb11910c8dc04fbe59c47a70eeace
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
