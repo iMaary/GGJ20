@@ -269,7 +269,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -380,15 +380,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: RepairMan
       objectReference: {fileID: 0}
+    - target: {fileID: 3615936912055174334, guid: 12b4522aa3de61247bdcfa8b6333deb7,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3615936912055174331, guid: 12b4522aa3de61247bdcfa8b6333deb7,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.25
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3615936912055174331, guid: 12b4522aa3de61247bdcfa8b6333deb7,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.65
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3615936912055174331, guid: 12b4522aa3de61247bdcfa8b6333deb7,
         type: 3}
@@ -466,6 +471,10 @@ PrefabInstance:
       propertyPath: m_Constraints
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 1914258867, guid: 12b4522aa3de61247bdcfa8b6333deb7, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12b4522aa3de61247bdcfa8b6333deb7, type: 3}
 --- !u!1001 &1475015754
@@ -479,6 +488,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Offensive
+      objectReference: {fileID: 0}
+    - target: {fileID: 4929722348275664748, guid: f1647e1ce53e4d04db9886f275169032,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player 1
       objectReference: {fileID: 0}
     - target: {fileID: 4929722348275664745, guid: f1647e1ce53e4d04db9886f275169032,
         type: 3}
@@ -606,6 +620,10 @@ PrefabInstance:
       propertyPath: m_Constraints
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 122647957, guid: f1647e1ce53e4d04db9886f275169032, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1647e1ce53e4d04db9886f275169032, type: 3}
 --- !u!1 &1913752628
@@ -719,7 +737,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -897,7 +915,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1024,7 +1042,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
